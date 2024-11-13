@@ -5,7 +5,7 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.contrib.auth.models import User
 from django.contrib.auth import logout as auth_logout
-
+import json
 
 @csrf_exempt
 def login(request):
